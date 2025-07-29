@@ -1,5 +1,3 @@
-# amex-style-marketing-ab-test
-
 # Marketing Offer Effectiveness Analysis (A/B Testing)
 
 This project evaluates the impact of a marketing offer on customer spending, redemption behavior, and engagement using **A/B testing techniques**.  
@@ -38,4 +36,43 @@ The dataset was generated synthetically to simulate realistic patterns.
 - Handled missing values and outliers
 - Feature engineering: created redemption flag and spend change
 
-### 2. **Exploratory Data A**
+### 2. **Exploratory Data Analysis (EDA)**
+- Distribution of post-offer spend and engagement scores
+- Earn vs. burn behavior (points earned vs. redeemed)
+
+### 3. **Statistical Analysis**
+- Validated group balance before the offer
+- Conducted A/B testing using **t-tests**
+- Calculated **lift** in spend and redemption for treatment group
+
+### 4. **Visualization**
+- Histograms, density plots, and boxplots
+- Redemption rate comparison
+- Scatterplots of points earned vs. redeemed
+
+### 5. **Advanced Analysis**
+- Multiple linear regression to understand the effect of treatment after controlling for demographics and pre-offer spend
+
+---
+
+## Tools & Technologies
+
+- **Language:** R
+- **Libraries:** tidyverse, ggplot2
+- **Version Control:** Git & GitHub
+
+---
+
+## Key Insights
+
+- Treatment group (Group B) showed a **statistically significant increase in post-offer spending**.
+- Redemption rates were higher for Group B.
+- Engagement scores improved in the treatment group, suggesting positive impact of the offer.
+
+---
+
+## How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/marketing-offer-effectiveness-analysis.git
